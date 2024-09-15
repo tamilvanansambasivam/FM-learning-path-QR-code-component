@@ -8,7 +8,7 @@ body {
   margin: 0 auto;
   align-items: center;
   height: 100vh;
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(212, 45%, 89%);
   font-size: 15px;
 }
 
@@ -18,23 +18,25 @@ body {
   flex-direction: column;
   text-align: center;
   border-radius: 2%;
-  max-width: 400px;
+  width: 300px;
+  height: 480px;
+  background-color: hsl(0, 0%, 100%);
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  padding-bottom: 1%;
+}
+
+h2 {
+  font-weight: 700; /* Bold font for headings */
+  color: hsl(218, 44%, 22%);
+}
+
+p {
+  font-weight: 400; /* Normal weight for paragraphs */
+  color: hsl(216, 15%, 48%);
 }
 
 #main-img {
-  width: 90%;
+  width: 92%;
   border-radius: 10%;
-  padding: 6%;
-}
-
-@media (min-width: 768px) {
-  .main {
-    max-width: 400px;
-  }
-
-  #main-img {
-    width: 90%;
-    padding: 4%;
-  }
+  padding: 4%;
 }
